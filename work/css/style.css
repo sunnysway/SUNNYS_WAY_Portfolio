@@ -1,0 +1,198 @@
+.box{
+display:  flex;
+align-items: baseline;
+justify-content: center;
+}
+
+h2, h3{
+  font-family: avenir;
+  letter-spacing: 7px;
+}
+
+h1{
+  font-size: 50px;
+  font-family: Avenir;
+  letter-spacing: 7px;
+  text-align: center;
+  font-style: bold;
+}
+
+h2{
+  margin-top: 90px;
+  font-weight: normal;
+  text-align: center;
+  font-size: 30px;
+}
+
+h3{
+  font-weight: bold;
+  text-align: center;
+  font-size: 40px;
+}
+
+.media{
+  text-align: right;
+}
+
+.media i{
+  width: 40px;
+  margin-right: 20px;
+}
+
+.facebook{
+  margin-top: 35px;
+  padding: 14px 10px;
+  position: absolute;
+  right: 6%;
+}
+
+.linkedin{
+  margin-top: 35px;
+  padding: 14px 10px;
+  position: absolute;
+  right: 8%;
+}
+
+.instagram{
+  margin-top: 35px;
+  padding: 14px 10px;
+  position: absolute;
+  right: 3%;
+}
+
+.nav ul{
+  list-style: none;
+  background: white;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li{
+   display: inline-block;
+}
+
+.nav a{
+  text-decoration: none;
+  color: black;
+  width: 250px;
+  display: block;
+  padding: 20px;
+  font-size: 17px;
+  font-family: Avenir;
+}
+
+.video-container{
+text-align: center;
+}
+
+video{
+  width: 90%;
+  height; 90%;
+}
+
+.gallery1{
+  margin: 10px 50px;
+  justify-content: center;
+  display: flex;
+}
+
+img{
+  height: 700px;
+  width: 510px;
+  margin: 20px;
+}
+
+.latest-work-img{
+  margin: 10px 85px;
+  margin-top: -10px;
+  justify-content: center;
+  display: flex;
+}
+
+.resize{
+  width: 100%;
+  height: 100%;
+}
+
+.icons{
+  margin: 10px 50px;
+  justify-content: center;
+  display: flex;
+}
+
+.resize-icon{
+  height: 500px;
+  width: 500px;
+}
+
+.insta-gallery{
+  margin-left: 45px;
+  justify-content: center;
+  display: flex:
+}
+
+.insta-gallery img{
+  padding: 5px;
+  width: 250px;
+  height: 250px;
+}
+
+h4{
+  font-size: 15px;
+  font-family: Avenir;
+  letter-spacing: 7px;
+  font-weight: lighter;
+}
+
+
+.flexbox2-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-left: 105px;
+  margin-right: 100px;
+  margin-top: 75px;
+}
+
+.flexbox3-container{
+  background-color: black;
+  font-family: Avenir;
+}
+
+.flexbox3-items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexbox3-item1{
+  color: gray;
+  font-weight: lighter;
+  font-size: 25px;
+  background-color: white;
+  overflow: visible;
+  margin: 40px;
+  margin-left: -50px;
+  padding-left: 50px;
+  padding-right: 80px;
+}
+
+.flexbox3-item2{
+  font-weight:bold;
+  border: 10px 10px;
+  border-color: white;
+  color: white;
+  font-size: 35px;
+}
+
+h5{
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Avenir;
+  letter-spacing: 7px;
+  color: white;
+  margin-left: 550px;
+  padding-top: 30px;
+  overflow: visible;
+}

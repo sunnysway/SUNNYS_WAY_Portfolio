@@ -10,6 +10,22 @@ h2, h3{
   letter-spacing: 7px;
 }
 
+.logo ul{
+  list-style: none;
+  padding: 10px;
+}
+
+.logo a{
+  font-size: 50px;
+  font-family: Avenir;
+  letter-spacing: 7px;
+  text-align: center;
+  font-style: bold;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
 h1{
   font-size: 50px;
   font-family: Avenir;
@@ -88,7 +104,7 @@ h3{
   justify-content: space-around;
   align-items: center;
   padding-top: 55px;
-  margin-left: -100px;
+  margin-left: -40%;
 }
 
 .flexbox1-icon{

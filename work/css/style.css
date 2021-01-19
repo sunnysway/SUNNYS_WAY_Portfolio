@@ -98,69 +98,22 @@ h3{
   font-family: Avenir;
 }
 
-.video-container{
-text-align: center;
+a{
+  text-decoration: none;
+  color: black;
 }
 
-video{
-  width: 90%;
-  height; 90%;
-}
-
-.gallery1{
+.gallery{
   margin: 10px 50px;
-  justify-content: center;
+  justify-content: flex-start;
   display: flex;
+  flex-wrap: wrap;
 }
 
-img{
-  height: 700px;
-  width: 510px;
-  margin: 20px;
+.gallery img{
+  padding: 15px;
+  width: 800px;
 }
-
-.latest-work-img{
-  margin: 10px 85px;
-  margin-top: -10px;
-  justify-content: center;
-  display: flex;
-}
-
-.resize{
-  width: 100%;
-  height: 100%;
-}
-
-.icons{
-  margin: 10px 50px;
-  justify-content: center;
-  display: flex;
-}
-
-.resize-icon{
-  height: 500px;
-  width: 500px;
-}
-
-.insta-gallery{
-  margin-left: 45px;
-  justify-content: center;
-  display: flex:
-}
-
-.insta-gallery img{
-  padding: 5px;
-  width: 250px;
-  height: 250px;
-}
-
-h4{
-  font-size: 15px;
-  font-family: Avenir;
-  letter-spacing: 7px;
-  font-weight: lighter;
-}
-
 
 .flexbox2-container{
   display: flex;
@@ -171,44 +124,26 @@ h4{
   margin-top: 75px;
 }
 
-.flexbox3-container{
-  background-color: black;
-  font-family: Avenir;
+.resize{
+  width: 100%;
+  height: 100%;
 }
 
-.flexbox3-items{
-  display: flex;
+.insta-gallery{
+  margin-left: 45px;
   justify-content: center;
-  align-items: center;
+  display: flex:
 }
 
-.flexbox3-item1{
-  color: gray;
-  font-weight: lighter;
-  font-size: 25px;
-  background-color: white;
-  overflow: visible;
-  margin: 40px;
-  margin-left: -50px;
-  padding-left: 50px;
-  padding-right: 80px;
+.insta-gallery img{
+  padding: 15px;
+  width: 250px;
+  height: 250px;
 }
 
-.flexbox3-item2{
-  font-weight:bold;
-  border: 10px 10px;
-  border-color: white;
-  color: white;
-  font-size: 35px;
-}
-
-h5{
-  font-size: 30px;
-  font-weight: bold;
+h6{
+  font-size: 15px;
   font-family: Avenir;
   letter-spacing: 7px;
-  color: white;
-  margin-left: 550px;
-  padding-top: 30px;
-  overflow: visible;
+  font-weight: lighter;
 }

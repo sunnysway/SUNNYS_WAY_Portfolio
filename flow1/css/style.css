@@ -1,0 +1,209 @@
+
+.box{
+display:  flex;
+align-items: baseline;
+justify-content: center;
+}
+
+h1, h2, h3, h4, h5{
+  font-family: avenir;
+  letter-spacing: 7px;
+}
+
+.logo ul{
+  list-style: none;
+  padding: 10px;
+}
+
+.logo a{
+  font-size: 50px;
+  font-family: Avenir;
+  letter-spacing: 7px;
+  text-align: center;
+  font-style: bold;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+h1{
+  font-size: 37px;
+  font-family: Avenir;
+  letter-spacing: 7px;
+  text-align: center;
+  font-style: bold;
+}
+
+h2{
+  font-weight: normal;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+
+
+.media{
+  text-align: right;
+}
+
+.media i{
+  width: 40px;
+  margin-right: 20px;
+}
+
+.facebook{
+  margin-top: 35px;
+  padding: 14px 10px;
+  position: absolute;
+  right: 6%;
+}
+
+.linkedin{
+  margin-top: 35px;
+  padding: 14px 10px;
+  position: absolute;
+  right: 8%;
+}
+
+.instagram{
+  margin-top: 35px;
+  padding: 14px 10px;
+  position: absolute;
+  right: 3%;
+}
+
+.nav ul{
+  list-style: none;
+  background: white;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li{
+   display: inline-block;
+}
+
+.nav a{
+  text-decoration: none;
+  color: black;
+  width: 250px;
+  display: block;
+  padding: 20px;
+  font-size: 17px;
+  font-family: Avenir;
+}
+
+.box1{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 100px;
+}
+
+img{
+  height: 450px;
+  width: 800px;
+  padding-left: 150px;
+}
+
+.tekst1{
+  max-width: 500px;
+  max-height: 500px;
+  line-height: 1.8;
+}
+
+h3{
+  font-weight: bold;
+  font-size: 23px;
+}
+
+p{
+  font-weight: lighter;
+  font-size: 17px;
+  font-family: avenir;
+}
+
+button{
+  color: white;
+  font-family: Avenir;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.btn{
+  width: 200px;
+  height: 50px;
+  background: black;
+}
+
+.feedback-box{
+  background-color: #B8C6D9;
+  font-family: Avenir;
+}
+
+.feedback-items{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 80px;
+  margin-top: 100px;
+
+}
+
+.feedback-text{
+ flex-direction: column;
+ max-width: 700px;
+ max-height: 500px;
+ line-height: 1.8;
+}
+
+h4{
+  font-weight: lighter;
+  font-size: 23px;
+}
+
+h5{
+  font-weight: lighter;
+  font-size: 23px;
+  padding-left: 350px;
+}
+
+.flexbox2-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-left: 105px;
+  margin-right: 100px;
+  margin-top: 75px;
+}
+
+.resize{
+  width: 100%;
+  height: 100%;
+}
+
+.insta-gallery{
+  margin-left: 45px;
+  justify-content: center;
+  display: flex:
+}
+
+.insta-gallery img{
+  padding: 15px;
+  width: 250px;
+  height: 250px;
+}
+
+h6{
+  font-size: 15px;
+  font-family: Avenir;
+  letter-spacing: 7px;
+  font-weight: lighter;
+}
